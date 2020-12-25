@@ -1,0 +1,20 @@
+.wrapper {
+    display: grid;
+
+    grid-template-columns: 2fr 10fr;
+    border: solid 1px black;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.wrapper img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.wrapper p {
+    margin: 0;
+    padding: 0;
+}

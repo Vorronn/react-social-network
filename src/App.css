@@ -1,0 +1,30 @@
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+  "h h h h"
+  "l n c r";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 2fr 8fr 1fr;
+  background: linear-gradient(180deg, #212121 0%, #26a69a 100%);
+  /*grid-gap: 10px;*/
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: grey;
+  border: 1px solid #26a69a;
+  border-radius: 5px;
+  margin: 10px 5px;
+}
+
+.leftColumn {
+  grid-area: l;
+
+}
+.rightColumn {
+  grid-area: r;
+}
+
+/*http://themekit.frontendmatter.com/dist/themes/social-3/index.html*/
+

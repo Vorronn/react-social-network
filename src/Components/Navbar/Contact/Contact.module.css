@@ -1,0 +1,15 @@
+.oneContact {
+    text-align: center;
+    justify-content: center;
+}
+
+.iconContact {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.nameContact {
+    margin: 0;
+    padding: 0;
+}

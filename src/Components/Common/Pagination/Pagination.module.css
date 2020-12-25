@@ -1,0 +1,11 @@
+span {
+    margin: 0;
+    cursor: pointer;
+    padding: 3px 3px;
+    border: 1px solid black;
+}
+
+.activePage {
+    font-weight: bold;
+    border: 1px solid green;
+}

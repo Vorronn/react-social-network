@@ -1,0 +1,41 @@
+.dialog {
+    padding: 5px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-template-rows: 40px;
+    line-height: 40px;
+}
+
+.wrapper p {
+    margin: 0;
+    padding: 0;
+}
+
+.iconContact {
+
+}
+
+.nameContact {
+
+}
+
+.dialog a {
+    color: white;
+    text-decoration: none;
+    height: 40px;
+
+}
+
+.dialog a.active {
+    color: red;
+}
+
+.imageIcon {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
